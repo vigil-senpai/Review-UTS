@@ -3,7 +3,7 @@
 #include<stdio.h> 
 #include<string.h> 
 #include<stdlib.h> 
-//m = table size 
+
 int m = 23;
 
 struct tnode{ 
@@ -12,8 +12,6 @@ struct tnode{
 }*ND[25]; 
 
 int hashing(char value[10]){ 
-//complete the code to do hashing using division hashing function 
-//add all the character ASCII in the string 
 	
 	int key = 0;
 	int len = strlen(value);
